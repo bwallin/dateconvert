@@ -5,6 +5,9 @@ setuptools_kwargs = {
     'install_requires': [
         'click>=3.3,<4'
     ],
+    'setup_requires': [
+        'wheel>=0.24.0,<1'
+    ],
     'entry_points': {
         'console_scripts': [
             'day_of_year = day_of_year.day_of_year:main'
