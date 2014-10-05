@@ -1,3 +1,4 @@
+*.pyc
 /build/
 /dateconvert.egg-info/
 /dist/

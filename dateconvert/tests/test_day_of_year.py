@@ -1,5 +1,5 @@
 import unittest
-import day_of_year
+from dateconvert import day_of_year
 import datetime as dt
 
 
