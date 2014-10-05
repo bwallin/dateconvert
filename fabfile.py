@@ -49,3 +49,13 @@ def bump_minor():
 @task
 def bump_major():
     local('bumpversion major')
+
+
+@task
+def pypi_register():
+    local('python setup.py register')
+
+
+@task
+def pypi_upload():
+    local('python setup.py bdist_wheel upload')
