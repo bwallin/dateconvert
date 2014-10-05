@@ -10,17 +10,17 @@ setuptools_kwargs = {
     ],
     'entry_points': {
         'console_scripts': [
-            'day_of_year = day_of_year.day_of_year:main'
+            'day_of_year = dateconvert.day_of_year:main'
         ]
     }
 }
 
 setup(
-    name='pydate',
-    description='Calculates the day of year from a given YYYYMMDD.',
+    name='dateconvert',
+    description='A collection of date convertion CLI tools.',
     author='Kyle W Purdon',
     author_email='kylepurdon@gmail.com',
-    url='https://github.com/kpurdon/pydate',
+    url='https://github.com/kpurdon/dateconvert',
     version='0.0.1',
     packages=find_packages(),
     **setuptools_kwargs
