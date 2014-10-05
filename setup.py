@@ -15,13 +15,19 @@ setuptools_kwargs = {
     }
 }
 
+
+def get_version():
+    version_file = open('./VERSION')
+    return version_file.read().strip()
+
+
 setup(
     name='dateconvert',
     description='A collection of date convertion CLI tools.',
     author='Kyle W Purdon',
     author_email='kylepurdon@gmail.com',
     url='https://github.com/kpurdon/dateconvert',
-    version='0.0.1',
+    version=get_version(),
     packages=find_packages(),
     **setuptools_kwargs
 )
