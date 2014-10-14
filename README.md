@@ -21,7 +21,7 @@ When the tool is installed using pip all of the CLI functions are automatically 
 
 From the command line run:
 
-```day_of_year 20110101```
+```day_of_year -p 20110101```
 
 # Development
 
