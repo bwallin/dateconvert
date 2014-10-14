@@ -15,6 +15,7 @@ This is a python distribution which contains command-line (CLI) utilities for co
 
 # Included Conversions:
 YYYYMMDD -> Day-Of-Year
+YYYYMMDD -> Week-Of-Year
 
 # Installation
 
@@ -30,6 +31,8 @@ When the tool is installed using pip all of the CLI functions are automatically 
 From the command line run:
 
 ```day_of_year -p 20110101```
+``` week_of_year -p 20110101```
+
 
 # Development
 
