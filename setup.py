@@ -22,7 +22,8 @@ setuptools_kwargs = {
     ],
     'entry_points': {
         'console_scripts': [
-            'day_of_year = dateconvert.day_of_year:main'
+            'day_of_year = dateconvert.day_of_year:main',
+            'week_of_year = dateconvert.week_of_year:main'
         ]
     }
 }
