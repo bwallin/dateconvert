@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/kpurdon/dateconvert.svg)](https://travis-ci.org/kpurdon/dateconvert)
+[![PyPi Version](http://img.shields.io/pypi/v/dateconvert.svg)](http://img.shields.io/pypi/v/dateconvert.svg)
 
 Python DATECONVERT
 ====
